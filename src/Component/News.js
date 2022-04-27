@@ -76,7 +76,7 @@ export default function News(props){
       <>
 
         <div className = "container my-5">
-        <h2 className='text-center ' style={{marginTop: "20mm"}}>News-Monkey Top {props.category} Headline </h2>
+        <h2 className='text-center ' style={{marginTop: "20mm"}}>News-Times Top {props.category} Headline </h2>
 
           <InfiniteScroll
             dataLength={article.length}
